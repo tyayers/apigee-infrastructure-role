@@ -1,4 +1,4 @@
-# apigee-x-network-admin
+# apigee-infrastructure-role
 This is a Google Cloud custom role for configuring Apigee X infrastructure components.
 
 To apply, just set your Google Cloud project Id environment variable and call the `1.create-role.sh` script.
