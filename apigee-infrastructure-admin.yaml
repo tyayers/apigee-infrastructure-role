@@ -1,5 +1,5 @@
-title: "Apigee X Network Admin"
-description: "Custom role to configure networking for Apigee X."
+title: "Apigee Infrastructure Admin"
+description: "Custom role to configure infrastructure for Apigee X."
 stage: "ALPHA"
 includedPermissions:
 - serviceusage.services.get
@@ -26,6 +26,7 @@ includedPermissions:
 - compute.autoscalers.create
 - compute.backendServices.create
 - compute.backendServices.use
+- compute.backendServices.update
 - compute.disks.create
 - compute.globalAddresses.create
 - compute.globalAddresses.get
@@ -64,4 +65,32 @@ includedPermissions:
 - compute.targetHttpsProxies.use
 - compute.urlMaps.create
 - compute.urlMaps.use
-
+- compute.networks.create
+- compute.regionNetworkEndpointGroups.get
+- compute.backendServices.get
+- compute.urlMaps.get
+- compute.targetHttpsProxies.get
+- compute.globalForwardingRules.get
+- compute.backendBuckets.list
+- compute.backendServices.list
+- compute.backendServices.get
+- compute.forwardingRules.list
+- compute.globalForwardingRules.list
+- compute.instanceGroupManagers.list
+- compute.sslPolicies.list
+- compute.targetPools.list
+- compute.targetSslProxies.list
+- compute.targetTcpProxies.list
+- compute.urlMaps.list
+- compute.urlMaps.get
+- compute.targetHttpProxies.list
+- compute.targetHttpsProxies.list
+- compute.sslCertificates.list
+- compute.serviceAttachments.list
+- compute.httpHealthChecks.list
+- compute.httpsHealthChecks.list
+- compute.healthChecks.list
+- compute.targetHttpProxies.list
+- compute.targetHttpsProxies.list
+- compute.instanceGroups.list
+- compute.networkEndpointGroups.list
